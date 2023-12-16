@@ -1,0 +1,308 @@
+body.index{
+    background-image:url(../images/Dark-Teal-Wallpapers.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+h1.light{ 
+    font-size: 90px;
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, aqua, white, lightcyan, cyan, lightgray, gray, violet                                                                                                                                                                                                                                                                                      );
+    background-size: 400% 400%;
+    animation: animate 7s ease infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    25%{
+        background-position: 100% 0;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+   75%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+h3{
+    color: white;
+    font-family: sans-serif;
+}
+h5{
+    color: white;
+    font-family: sans-serif;
+}
+button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    border-radius: 2px;
+
+}
+.container{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1300px;
+    height: 600px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #014D4E;
+}
+body.homepage{
+    background-color: black;
+    font-family: sans-serif;
+}
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 99%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.menu{
+    font-size: 32px;
+    color: cyan;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    color: lightgray;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: cyan;
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+a.active{
+    color: cyan;
+}
+.me{
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    background-image: linear-gradient(50deg, transparent, cyan, transparent);
+    margin-top: auto;
+}
+.hello{
+    margin-left: 50px;
+}
+img.picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    float: left;
+    margin-right: 20px;
+    margin: 50px auto;
+    margin-left: 30px;
+}
+div.exterior{
+    border: 2px solid cyan;
+    height: 400px;
+}
+.head1{
+    color: cyan;
+}
+.information{
+    color: white;
+    font-family: sans-serif, poppins;
+    margin-top: 70px;
+    margin-left: 360px;
+    margin-right: 50px;
+    width: fit-content;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+.nameColor{
+    color: cyan;
+    font-weight:  bolder;
+}
+.spacing{
+    padding-right: 200px;
+}
+.marginBottom{
+    margin-bottom: 40px;
+}
+.tech{
+    color: black;
+    background-image: linear-gradient(45deg, cyan, transparent, transparent);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+::-webkit-scrollbar{
+    background: gray;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: cyan;
+    border-radius: 5px;
+}
+.skill01{
+    margin-left:80px;
+    width: 88%;
+    height: fit-content;
+    background-color: black;
+    border: 1px solid cyan;
+}
+.Percentage{
+    text-align: right;
+    color: black;
+    font-size: 0.8vw;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.html{
+    width: 85%;
+    height: fit-content;
+    background-color: cyan;
+}
+.skill1{
+    margin-left: 80px;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+}
+.css{
+    width: 60%;
+    height: fit-content;
+    background-color: cyan;
+}
+.java{
+    width: 40%;
+    height: fit-content;
+    background-color: cyan;
+}
+.Autocad{
+     width: 50%;
+    height: fit-content;
+    background-color: cyan;
+}
+h1.Designs{
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    background-image: linear-gradient(50deg, transparent, cyan , transparent);
+    margin-top: auto;
+}
+.head2{
+    color: black;
+    background-image: linear-gradient(45deg, cyan, transparent, transparent);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.image01{
+    margin-left: 180px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 0;
+    margin-top: 50px;
+}
+.image02{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.image03{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.image04{
+    margin-left: 180px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.image05{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.image06{
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.contacts{
+    border: 2px solid cyan;
+    color: white;
+    float: left;
+    width: 380px;
+    height: 120px;
+    margin-left: 195px;
+    margin-top: 50px;
+    background: linear-gradient(60deg, transparent, transparent, cyan);
+}
+.mainpadding{
+    color: cyan;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cyanlink{
+    color: white;
+    text-decoration: none;
+}
+.cyanlink:hover{
+    color: cyan;
+    transition: 2s;
+}
+.padding{
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: .1em;
+}
+
+
+

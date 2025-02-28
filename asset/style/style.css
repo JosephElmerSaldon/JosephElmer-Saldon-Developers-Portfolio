@@ -11,7 +11,7 @@ h1.light{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: linear-gradient(45deg, aqua, blue, green, violet;                                                                                                                                                                                                                                                                                     );
+    background-image: linear-gradient(45deg, aqua, blue, green);                                                                                                                                                                                                                                                                                     );
     background-size: 400% 400%;
     animation: animate 7s ease infinite;
 }
